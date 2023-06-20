@@ -1,7 +1,7 @@
 body{
-    margin:0;
+
     text-align:center;
-    padding-top:550px;
+
     font-family: 'Just Me Again Down Here', cursive;
 }
 .profile{
@@ -9,12 +9,12 @@ body{
     height:300px;
 }
 #welcome{
-position:absolute;
 bottom:0;
-background:linear-gradient(#628db3 0%, #bfa5d1 100%);
+background:linear-gradient(#628db3 0%, #c1a6d3 100%);
 display:table;
 width:100%;
 height:100%;
+z-index:9;
 }
 h1{
     font-size:40px;
@@ -44,14 +44,14 @@ h2{
     display:table-cell;
     vertical-align:middle;
 }
-.menu{
+/**.menu{
     position:fixed;
     top: 0px;
     background-color: gainsboro;
     width:100%;
     margin-top:0px;
     z-index:10;
-}
+}**/
 .links{
     display:inline;
     padding-left:9px;
@@ -81,4 +81,9 @@ a{
 .contact1 h3{
     display:inline;
     
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index:99999;
 }
